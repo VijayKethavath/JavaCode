@@ -18,7 +18,7 @@ public class uniquechar {
 			if(count==1) {
 				System.out.println(str.charAt(i)+"->"+count);
 			}
-			else {
+			if(count>1) {
 				System.out.println("duplicated values :"+str.charAt(i)+"->"+count);
 			}
 		}

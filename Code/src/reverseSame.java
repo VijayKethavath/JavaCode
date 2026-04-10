@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class reverseSame {
 
@@ -5,6 +6,7 @@ public class reverseSame {
 		String str="hi hello ram";
 		
 		String arr[]=str.split(" ");
+		System.out.println(Arrays.toString(arr));
 		String res="";
 		
 		for(int i=0;i<arr.length;i++) {
@@ -15,7 +17,7 @@ public class reverseSame {
 			}
 			res=res+st+" ";
 		}
-		System.out.println(res);
+		System.out.println(res.trim());
 		
 
 	}
