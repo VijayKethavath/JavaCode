@@ -13,18 +13,15 @@ public class strongNo {
 			sum+=fact;
 			n/=10;
 		}
-		if(num==sum) {
-			System.out.println(num+" is a strong number");
-		}
-		else {
-			System.out.println(num+" is not a strong number");
-		}
+		System.out.println(num==sum?num+" is a strong number":num+" is not a strong number");	
 	}
-
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		strong(145);
 	}
 }
+
+//Sum of factorial of its digits = the number itself
+//145 ->1 + 24 + 120 = 145
 
 

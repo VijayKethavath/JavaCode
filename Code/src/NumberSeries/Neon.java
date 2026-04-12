@@ -12,11 +12,12 @@ public class Neon {
 		    square/=10;
 		}
 		
-		System.out.println(n==sum?"Neon number":"Not a neon number");	
+		System.out.println(n==sum?n+" Neon number":n+" Not a neon number");	
 	}
 
 	public static void main(String[] args) {
 		getneon(9);
+		getneon(12);
 
 	}
 

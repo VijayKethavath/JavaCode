@@ -16,6 +16,7 @@ public class perfectNo {
 
 	public static void main(String[] args) {
 		getperfect(6);
+		getperfect(10);
 
 	}
 

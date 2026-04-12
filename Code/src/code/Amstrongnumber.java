@@ -1,9 +1,8 @@
 package code;
 
 public class Amstrongnumber {
-	public static void amstrong(int n) {
+	public static void amrstrong(int n) {
 		int count=0;
-		
 		for(int i=n;i>0;i=i/10) {
 			count++;
 		}
@@ -16,15 +15,12 @@ public class Amstrongnumber {
 			n/=10;
 		}
 
-		if(num==sum) {
-			System.out.println("Amstrong number");
-		}
-		else System.out.println("Not a Amstrong numb");
+		System.out.println(num==sum?num+" is a Armstrong number":num+" is a Not a Armstrong numb");	
 	}
-
 	public static void main(String[] args) {
-		amstrong(153);
-
+		amrstrong(153);
 	}
-
 }
+
+//A number that is equal to the sum of its digits raised to the power of number of digits
+//1³ + 5³ + 3³ = 1 + 125 + 27 = 153

@@ -10,19 +10,14 @@ public class HarshadNumber {
 			sum+=temp;
 			n/=10;
 		}
-		System.out.println(num%sum==0?num+" is harshed number":num+" is not a harshed number");
-		
-		
+		System.out.println(num%sum==0?num+" is harshed number":num+" is not a harshed number");		
 	}
-
+	
 	public static void main(String[] args) {
 		getHarshed(18);
 		getHarshed(19);
-
 	}
-
 }
-
 
 //Digits 18 → 1 + 8 = 9
 //18 ÷ 9 = 2
