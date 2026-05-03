@@ -37,7 +37,7 @@ public class productofArray238 {
 
 	public static void main(String[] args) {
 		productofArray238 pr= new productofArray238();
-		pr.product(new int[]{1,2,3,4});
+		pr.product(new int[]{1,2,3,4},3);
 
 	}
 	}
